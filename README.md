@@ -18,15 +18,7 @@ def OddLengthSum(arr):
 			for k in range(i, j + 1, 1):
 
 				# Add the element to sum
-				sum += arr[k]
-			
-	# Return the final sum
-	return sum
-
-# Driver Code
-
-# Given array arr[]
+				sum += arr[k]	
+        return sum
 arr = [ 1, 5, 3, 1, 2 ]
-
-# Function call
 print(OddLengthSum(arr))
