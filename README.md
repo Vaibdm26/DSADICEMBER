@@ -19,5 +19,6 @@ def OddLengthSum(arr):
 		# Add the element to sum
 		sum += arr[k]	
     return sum
+    #given array
 arr = [ 1, 5, 3, 1, 2 ]
 print(OddLengthSum(arr))
